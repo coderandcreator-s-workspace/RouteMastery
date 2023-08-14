@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #d6bae4;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+/* Navbar */
+#nav{
+    height: 10vh;
+    background-color: #d6bae4;
+    box-shadow: 1px 4px 25px 0 black;
+    padding: 0 9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.logo-container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 30%;
+}
+.logo-img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+.logo-name{
+    margin: 0 0.7rem;
+}
+.logo-container:hover{
+    cursor: pointer;
+}
+.nav-items-container{
+    width: 70%;
+}
+.nav-items{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin: 0 1.1rem;
+    font-size: 1.1rem;
+    transition: .3s;
+}
+.nav-link:hover{
+    color: rgb(74, 73, 73);
+    font-size: 1.12rem;
+}
+.active-link{
+    text-decoration: underline;
+}
+/* HomePage */
+.main-container{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.circle{
+    height: 300px;
+    width: 300px;
+    margin: 0 2rem;
+    border-radius: 50%;
+    background-color: #9c54c1;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    box-shadow: 7px 7px 20px 0 black;
+    transition: .3s;
+}
+.circle:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 24px 0 black;
+    .circle-text{
+        color: black;
+        font-size: 2.4rem;
+    }
+}
+.circle-text{
+    color: white;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    font-size: 2.2rem;
+    line-height: 1.3;
+    transition: .3s;
+}
+/* About Us */
+.about-container{
+    background-color: white;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 5rem 10rem;
+    padding: 2rem 10rem;
+    border-radius: 3rem;
+    box-shadow: 7px 7px 20px 0 black;
+}
+.about-heading{
+    font-weight: bolder;
+    margin: 1rem;
+    text-decoration: underline;
+}
+.about-para{
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 2rem;
+}
+/* Creators */
+.creators-container{
+    background-color: white;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 5rem 10rem;
+    padding: 4rem 10rem;
+    border-radius: 3rem;
+    box-shadow: 7px 7px 20px 0 black;
+}
+.creators-heading{
+    font-weight: bolder;
+    margin:1rem;
+    text-decoration: underline;
+}
+.creators-para{
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 2rem;
+}
+/* Footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container{
+    height: 55vh;
+    box-shadow: 1px 4px 25px 0 black;
+    padding: 2rem 15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-contact h2{
+    text-align: center;
+    line-height: 2.1;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-input{
+    margin: 0.5rem 0;
+    padding: 0.6rem;
+    width: 15rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 2px 7px 0 black;
+}
+.submit{
+    background-color: #9c54c1;
+    color: white;
+    font-size: 1rem;
+    padding: 0.8rem 1.2rem;
+    margin: 0.5rem 0;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 2px 7px 0 black;
+}
+.submit:hover{
+    cursor: pointer;
+    color: black;
+    box-shadow: 2px 2px 9px 0 black;
+}
+.line{
+   width: 1px;
+   height: 15rem;
+   background-color: black;
+}
+.company-brand h4{
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 1.8;
+}
+.navigate-social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+    margin: 2rem 0;
+}
+.navigation-section{
+    text-align: center;
+    line-height: 2.2;
+    font-weight: 600;
+}
+.navigation-section p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.social-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.social-links img{
+    width: 27px;
+    margin: 0.8rem 0;
+}
+.social-links img:hover{
+    cursor: pointer;
+}
