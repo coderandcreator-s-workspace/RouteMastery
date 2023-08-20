@@ -129,7 +129,6 @@ body{
 /* About Us */
 .about-container{
     background-color: white;
-    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -143,6 +142,7 @@ body{
     font-weight: bolder;
     margin: 1rem;
     text-decoration: underline;
+    text-align: center;
 }
 .about-para{
     font-weight: bold;
@@ -152,7 +152,6 @@ body{
 /* Creators */
 .creators-container{
     background-color: white;
-    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
