@@ -21,16 +21,16 @@
         <div class="nav-items-container">
             <ul class="nav-items">
                 <li class="nav-item">
-                    <a href="#home" class="nav-link active-link">Home</a>
+                    <a href="#home" class="nav-link" id="home-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#about" class="nav-link">About Us</a>
+                    <a href="#about" class="nav-link" id="about-link">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#creators" class="nav-link">Creators</a>
+                    <a href="#creators" class="nav-link" id="creators-link">Creators</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact Us</a>
+                    <a href="#contact" class="nav-link" id="contact-link">Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -73,7 +73,8 @@
     <section id="srf">
     <div class="srf-container">
         <h2 class="srf-heading">SUCCESS RATE FINDER</h2>
-        <div class="profile-list-container">
+        <div class="pro-list">
+            <div class="profile-list-container">
             <div class="profile-heading">
                 <h3>LIST OF PROFILES</h3>
             </div>
@@ -101,6 +102,7 @@
             </div>
             </div>
         </div>
+        </div>
         <!-- SRF - Questions Page -->
         <div id="ques">
         <div class="questions-container">
@@ -114,9 +116,22 @@
          </div>
          <div class="btn-container">
          <button class="next-btn">Next</button>
+         <button class="submit-btn">SUBMIT</button>
         </div>
-         <h3 class="ques-end">Questions End!!!</h3>
-         <p class="result">Your score is 0.</p>
+    </div>
+    <!-- SRF - Result Page -->
+    <div id="result-pg">
+        <div class="result-container">
+            <div class="result">
+                <h4 class="your-score">Your score is: <br>90</h4>
+            </div>
+            <div class="improvement">
+                <h5 class="improvement-tip-heading">Improvement Tip:</h5>
+                <h4 class="improvement-tip-body">"Try working hard!!"</h4>
+            </div>
+            <div class="retry">
+                <button class="retry-btn">Retry</button>
+            </div>
         </div>
     </div>
 </section>
@@ -142,7 +157,7 @@
                     </div>
                     <div class="navigate-social">
                         <div class="navigation-section">
-                            <p><a href="#home" class="nav-link active-link">Home</a></p>
+                            <p><a href="#home" class="nav-link">Home</a></p>
                             <p><a href="#about" class="nav-link">About Us</a></p>
                             <p><a href="#creators" class="nav-link">Creators</a></p>
                             <p><a href="#contact" class="nav-link">Contact Us</a></p>
